@@ -1,8 +1,8 @@
-# 🏦 Atlas — Finance, Banking & FinTech AI Chatbot
+# 🏦 DRC Finance, Banking & FinTech AI Chatbot
 
 A production-grade, conversational AI demo for the financial services industry. Built with **Python + FastAPI** on the backend and **React + Vite + Tailwind** on the frontend, with a **fraud-detection-first** architecture and rich response blocks for accounts, transactions, loans, investments, market data, and budgets.
 
-> ⚠️ **Demo only.** Atlas is not a SEBI-registered investment advisor, not a bank, and does not handle real money. All accounts, transactions, products, and market data are fictional. Do not share OTPs, PINs, or passwords with anyone — including this chatbot.
+> ⚠️ **Demo only.** DRC Finance is not a SEBI-registered investment advisor, not a bank, and does not handle real money. All accounts, transactions, products, and market data are fictional. Do not share OTPs, PINs, or passwords with anyone — including this chatbot.
 
 ![CI](https://img.shields.io/github/actions/workflow/status/drcinfotech/Finance-AI-Chatbot/ci.yml?branch=main&label=tests)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
@@ -224,8 +224,8 @@ This is a **demonstration project**. It is not production-ready banking software
 
 **Specifically:**
 
-- 🚫 **Not a SEBI-registered investment advisor.** Personal investment advice in India requires SEBI registration. Atlas only provides educational information.
-- 🚫 **Not a bank.** Atlas does not hold deposits, issue credit, or move money.
+- 🚫 **Not a SEBI-registered investment advisor.** Personal investment advice in India requires SEBI registration. DRC Finance only provides educational information.
+- 🚫 **Not a bank.** DRC Finance does not hold deposits, issue credit, or move money.
 - 🚫 **No real authentication.** The session model is in-memory and does not enforce identity. Real banking systems require multi-factor authentication, KYC, and audited audit trails.
 - 🚫 **Mock market data only.** Indices, stocks, and prices are fictional. For real market data, use your broker's platform or an official exchange website.
 - ✅ **Fraud detection is best-effort.** The pattern library catches common scam phrasings but will not catch every sophisticated attack. Always verify with the official cybercrime helpline (1930) and your bank.
