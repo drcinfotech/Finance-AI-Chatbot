@@ -1,0 +1,40 @@
+{
+  "accounts": [
+    { "id": "a001", "type": "savings",  "label": "Primary Savings",       "number_masked": "•••• 4821", "balance": 248720.50, "currency": "INR", "ifsc": "SCDB0001234", "branch": "Surat - Adajan" },
+    { "id": "a002", "type": "checking", "label": "Salary Account",        "number_masked": "•••• 9914", "balance": 89450.00,  "currency": "INR", "ifsc": "SCDB0001234", "branch": "Surat - Adajan" },
+    { "id": "a003", "type": "savings",  "label": "Emergency Fund",        "number_masked": "•••• 6307", "balance": 425000.00, "currency": "INR", "ifsc": "SCDB0001234", "branch": "Surat - Adajan" }
+  ],
+  "cards": [
+    { "id": "c001", "type": "credit", "label": "Aurelia Platinum",     "number_masked": "•••• 4192", "limit": 250000, "current_balance": 38420.00, "available": 211580.00, "due_date": "Dec 18", "min_due": 1921, "currency": "INR", "rewards_points": 12450, "status": "active" },
+    { "id": "c002", "type": "debit",  "label": "Solid Bank Debit",      "number_masked": "•••• 8856", "linked_account": "a001", "daily_limit": 100000, "status": "active", "currency": "INR" },
+    { "id": "c003", "type": "credit", "label": "Travelar Rewards",      "number_masked": "•••• 7330", "limit": 150000, "current_balance": 0,        "available": 150000.00, "due_date": "—",       "min_due": 0,    "currency": "INR", "rewards_points": 8200,  "status": "active" }
+  ],
+  "recent_transactions": [
+    { "id": "t001", "date": "Today, 11:42 AM",  "merchant": "Coffea Roastery",           "category": "Food & dining",   "amount": -340,    "type": "debit",  "account": "a002", "status": "completed" },
+    { "id": "t002", "date": "Today, 09:15 AM",  "merchant": "Vella Cabs",                "category": "Transport",       "amount": -185,    "type": "debit",  "account": "a002", "status": "completed" },
+    { "id": "t003", "date": "Yesterday, 8:20 PM", "merchant": "Marigold Grocers",        "category": "Groceries",       "amount": -2480,   "type": "debit",  "account": "a001", "status": "completed" },
+    { "id": "t004", "date": "Yesterday, 5:00 PM", "merchant": "Salary Credit — Vendana", "category": "Income",          "amount": 145000,  "type": "credit", "account": "a002", "status": "completed" },
+    { "id": "t005", "date": "Dec 02, 2:14 PM",  "merchant": "Streamora Subscription",    "category": "Entertainment",   "amount": -649,    "type": "debit",  "account": "a002", "status": "completed" },
+    { "id": "t006", "date": "Dec 01, 11:05 AM", "merchant": "Vita Pharma",               "category": "Healthcare",      "amount": -845,    "type": "debit",  "account": "a001", "status": "completed" },
+    { "id": "t007", "date": "Nov 30, 9:42 PM",  "merchant": "Unknown Merchant LMT4421",  "category": "Uncategorized",   "amount": -12500,  "type": "debit",  "account": "a001", "status": "flagged" },
+    { "id": "t008", "date": "Nov 29, 2:00 PM",  "merchant": "Rent — Landlord Transfer",  "category": "Housing",         "amount": -28000,  "type": "debit",  "account": "a001", "status": "completed" }
+  ],
+  "loans": [
+    { "id": "l001", "type": "Home loan",      "principal": 4500000, "outstanding": 3782000, "emi": 41200, "rate": 8.65, "tenure_months": 240, "remaining_months": 187, "next_due": "Dec 10", "lender": "Solid Bank" },
+    { "id": "l002", "type": "Personal loan",  "principal": 500000,  "outstanding": 142000,  "emi": 11850, "rate": 13.25, "tenure_months": 48,  "remaining_months": 13,  "next_due": "Dec 15", "lender": "Solid Bank" }
+  ],
+  "investments": [
+    { "id": "i001", "symbol": "VRTX",  "name": "Vertix Industries",        "shares": 24,  "avg_buy": 1840.00, "current": 2148.50, "currency": "INR", "category": "Stock"        },
+    { "id": "i002", "symbol": "NORX",  "name": "Norix Pharma",             "shares": 60,  "avg_buy": 524.00,  "current": 612.30,  "currency": "INR", "category": "Stock"        },
+    { "id": "i003", "symbol": "BIDX",  "name": "Bridica Tech Index Fund",  "shares": 180, "avg_buy": 412.00,  "current": 467.20,  "currency": "INR", "category": "Mutual Fund"  },
+    { "id": "i004", "symbol": "GLDX",  "name": "Goldenleaf Gold ETF",      "shares": 50,  "avg_buy": 5640.00, "current": 6212.00, "currency": "INR", "category": "ETF"          }
+  ],
+  "budgets": [
+    { "category": "Food & dining",     "spent": 12480, "limit": 15000, "icon": "🍽️"  },
+    { "category": "Transport",         "spent": 3420,  "limit": 5000,  "icon": "🚕"  },
+    { "category": "Groceries",         "spent": 8920,  "limit": 10000, "icon": "🛒"  },
+    { "category": "Entertainment",     "spent": 2148,  "limit": 3000,  "icon": "🎬"  },
+    { "category": "Healthcare",        "spent": 1640,  "limit": 5000,  "icon": "🩺"  },
+    { "category": "Shopping",          "spent": 7250,  "limit": 8000,  "icon": "🛍️"  }
+  ]
+}

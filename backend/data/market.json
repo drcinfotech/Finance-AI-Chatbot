@@ -1,0 +1,26 @@
+{
+  "indices": [
+    { "symbol": "BIDX-50",   "name": "Bridica 50 Index",        "value": 24218.45, "change": 142.30, "change_pct": 0.59 },
+    { "symbol": "BIDX-IT",   "name": "Bridica IT Index",        "value": 41280.10, "change": -218.75, "change_pct": -0.53 },
+    { "symbol": "BIDX-BANK", "name": "Bridica Banking Index",   "value": 52914.80, "change": 380.45,  "change_pct": 0.72 }
+  ],
+  "stocks": [
+    { "symbol": "VRTX",  "name": "Vertix Industries",   "sector": "Conglomerate",   "price": 2148.50, "change": 32.40,  "change_pct": 1.53,  "market_cap": "₹14.2L Cr", "pe": 28.4 },
+    { "symbol": "NORX",  "name": "Norix Pharma",        "sector": "Pharmaceutical", "price": 612.30,  "change": -8.20,  "change_pct": -1.32, "market_cap": "₹1.8L Cr",  "pe": 22.1 },
+    { "symbol": "QUAS",  "name": "Quasar Cement",       "sector": "Cement",         "price": 412.80,  "change": 5.60,   "change_pct": 1.37,  "market_cap": "₹0.9L Cr",  "pe": 19.8 },
+    { "symbol": "ZENTH", "name": "Zenith Mobility",     "sector": "Automotive",     "price": 924.10,  "change": 18.75,  "change_pct": 2.07,  "market_cap": "₹2.4L Cr",  "pe": 31.2 },
+    { "symbol": "LUMR",  "name": "Lumera Software",     "sector": "Technology",     "price": 1842.40, "change": -28.30, "change_pct": -1.51, "market_cap": "₹3.1L Cr",  "pe": 35.7 },
+    { "symbol": "CORA",  "name": "Cordia Banking",      "sector": "Banking",        "price": 1148.20, "change": 14.50,  "change_pct": 1.28,  "market_cap": "₹6.4L Cr",  "pe": 18.2 }
+  ],
+  "currencies": [
+    { "pair": "USD/INR", "rate": 84.32, "change": 0.18 },
+    { "pair": "EUR/INR", "rate": 89.74, "change": -0.24 },
+    { "pair": "GBP/INR", "rate": 105.18, "change": 0.42 },
+    { "pair": "AED/INR", "rate": 22.96, "change": 0.05 }
+  ],
+  "commodities": [
+    { "name": "Gold (24K, 10g)",   "price": 76420, "change_pct": 0.42 },
+    { "name": "Silver (1kg)",      "price": 91200, "change_pct": -0.18 },
+    { "name": "Crude Oil (Brent)", "price": 6280,  "change_pct": 1.12 }
+  ]
+}

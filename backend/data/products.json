@@ -1,0 +1,20 @@
+{
+  "credit_cards": [
+    { "id": "p001", "name": "Aurelia Platinum",       "category": "Premium",     "annual_fee": 5000, "joining_fee": 5000, "rewards_rate": "4x on dining, 2x everywhere", "best_for": "Diners & travelers", "min_income": 1200000, "credit_score_min": 750, "perks": ["Airport lounge access (8/year)", "Travel insurance", "1% fuel surcharge waiver"], "highlight": "4x rewards on dining" },
+    { "id": "p002", "name": "Travelar Rewards",       "category": "Travel",      "annual_fee": 3500, "joining_fee": 0,    "rewards_rate": "5x on flights & hotels, 1x else", "best_for": "Frequent travelers", "min_income": 800000,  "credit_score_min": 720, "perks": ["Free domestic lounge access (4/year)", "10% off on partner hotels"], "highlight": "5x miles on travel" },
+    { "id": "p003", "name": "Everyday Cashback",      "category": "Cashback",    "annual_fee": 500,  "joining_fee": 500,  "rewards_rate": "1.5% cashback unlimited",       "best_for": "Daily spenders",    "min_income": 400000,  "credit_score_min": 700, "perks": ["No category restrictions", "Auto-credited monthly"], "highlight": "Flat 1.5% on everything" },
+    { "id": "p004", "name": "Student Spark",          "category": "Student",     "annual_fee": 0,    "joining_fee": 0,    "rewards_rate": "2x on books & online learning", "best_for": "Students 18-25",    "min_income": 0,       "credit_score_min": 0,   "perks": ["No income required", "Build credit history"], "highlight": "Zero-fee starter card" }
+  ],
+  "loans": [
+    { "id": "L001", "type": "Home loan",      "rate_from": 8.45, "tenure_max_years": 30, "max_amount": 25000000, "processing_fee_pct": 0.5,  "description": "For purchase or construction of a home", "min_credit_score": 700 },
+    { "id": "L002", "type": "Personal loan",  "rate_from": 11.99, "tenure_max_years": 7,  "max_amount": 4000000,  "processing_fee_pct": 1.5,  "description": "Unsecured loan for any personal need",   "min_credit_score": 720 },
+    { "id": "L003", "type": "Auto loan",      "rate_from": 9.25,  "tenure_max_years": 8,  "max_amount": 7500000,  "processing_fee_pct": 0.75, "description": "For new or used vehicles",              "min_credit_score": 710 },
+    { "id": "L004", "type": "Education loan", "rate_from": 9.95,  "tenure_max_years": 15, "max_amount": 5000000,  "processing_fee_pct": 0.0,  "description": "For higher education in India or abroad","min_credit_score": 680 }
+  ],
+  "deposits": [
+    { "id": "D001", "name": "Standard FD",        "rate_pct": 6.85, "min_tenure_months": 7,  "max_tenure_months": 60,  "min_amount": 10000,  "senior_citizen_bonus": 0.5, "compounding": "Quarterly", "premature_penalty_pct": 1.0 },
+    { "id": "D002", "name": "Tax Saver FD",       "rate_pct": 7.25, "min_tenure_months": 60, "max_tenure_months": 60,  "min_amount": 10000,  "senior_citizen_bonus": 0.5, "compounding": "Quarterly", "premature_penalty_pct": null, "tax_benefit": "Section 80C up to ₹1.5L" },
+    { "id": "D003", "name": "Premium 555 FD",     "rate_pct": 7.65, "min_tenure_months": 18, "max_tenure_months": 18,  "min_amount": 50000,  "senior_citizen_bonus": 0.5, "compounding": "Quarterly", "premature_penalty_pct": 1.5 },
+    { "id": "D004", "name": "Recurring Deposit",  "rate_pct": 6.50, "min_tenure_months": 6,  "max_tenure_months": 120, "min_amount": 500,    "senior_citizen_bonus": 0.5, "compounding": "Quarterly", "premature_penalty_pct": 1.0, "recurring": true }
+  ]
+}
