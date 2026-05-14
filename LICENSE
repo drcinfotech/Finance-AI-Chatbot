@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 drcinfotech
+Copyright (c) 2026 DRC Infotech
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,27 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-────────────────────────────────────────────────────────────────────────────
-
-ADDITIONAL FINANCIAL DISCLAIMER
-
-This software is provided as a technical demonstration of conversational AI
-patterns for financial services. It is NOT:
-
-  • A SEBI-registered investment advisory service
-  • A licensed bank or NBFC
-  • A payment processor or money-transfer service
-  • A substitute for advice from a qualified financial professional
-
-The included data (accounts, transactions, products, market prices, stocks,
-indices) is entirely fictional. Names of banks, fintechs, brands, and
-financial instruments are made up for demonstration purposes.
-
-Do not deploy this software to handle real customer data, real money, or
-make real financial decisions on behalf of end-users without substantial
-modification, professional audit, and compliance with all applicable
-regulations (RBI guidelines, SEBI regulations, IT Act, DPDP Act, etc.).
-
-If you or someone you know is a victim of financial fraud in India, call the
-cybercrime helpline at 1930 or report at cybercrime.gov.in.
